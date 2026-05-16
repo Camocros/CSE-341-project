@@ -1,17 +1,27 @@
 {
   "name": "cse-341",
   "version": "1.0.0",
-  "description": "",
+  "description": "project",
+  "keywords": [],
+  "homepage": "https://github.com/Camocros/CSE-341-project#readme",
+  "bugs": {
+    "url": "https://github.com/Camocros/CSE-341-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camocros/CSE-341-project.git"
+  },
+  "license": "ISC",
+  "author": "c serna",
+  "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
