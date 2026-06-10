@@ -5,10 +5,9 @@ const doc = {
     title: 'Contacts API',
     description: 'Contacts API for CSE 341'
   },
-  // TODO: Replace with your actual Render URL, for example: 'my-project.onrender.com'
-  // Or, you can use process.env.HOST if you have it set in your .env file
-  host: 'localhost:3001',
-  schemes: ['http', 'https']
+  // We use the Render URL here
+  host: 'cse-341-project-lwjf.onrender.com',
+  schemes: ['https', 'http']
 };
 
 const outputFile = './swagger-output.json';

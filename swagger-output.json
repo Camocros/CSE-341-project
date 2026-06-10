@@ -5,11 +5,11 @@
     "description": "Contacts API for CSE 341",
     "version": "1.0.0"
   },
-  "host": "localhost:3001",
+  "host": "cse-341-project-lwjf.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {
@@ -32,7 +32,7 @@
         }
       }
     },
-    "/users/": {
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -53,16 +53,19 @@
             "schema": {
               "type": "object",
               "properties": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
+                  "example": "any"
+                },
                 "email": {
                   "example": "any"
                 },
-                "username": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "name": {
-                  "example": "any"
-                },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -79,7 +82,7 @@
         }
       }
     },
-    "/users/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -114,16 +117,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "username": {
+                "firstName": {
+                  "example": "any"
+                },
+                "lastName": {
                   "example": "any"
                 },
                 "email": {
                   "example": "any"
                 },
-                "name": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "ipaddress": {
+                "birthday": {
                   "example": "any"
                 }
               }
