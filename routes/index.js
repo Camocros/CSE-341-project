@@ -5,6 +5,6 @@ router.get('/', (req, res) => {
 });
 
 router.use('/', require('./swagger'));
-router.use('/users', require('./users'));
+router.use('/contacts', require('./users'));
 
 module.exports = router;
